@@ -12,25 +12,6 @@ Window {
     visible: true
     title: qsTr("Dominant Color!")
 
-    /*Image {
-        id: colors
-        source: "color-icons.png"
-        smooth: true
-        property real centerX: mainWindow.width / 2
-        property real centerY: mainWindow.height / 2
-        property real bubbleCenter: colors.width / 2
-        x: centerX - bubbleCenter
-        y: centerY - bubbleCenter
-        //source: "color-icons.png"
-
-        /*width: pane.availableWidth / 2
-        height: pane.availableHeight / 2
-        anchors.centerIn: parent
-        anchors.verticalCenterOffset: -50
-        fillMode: Image.PreserveAspectFit
-        source: "color-icons.png"*/
-    //}
-
     CaptureSession {
         id: captureSession
         videoOutput: output
